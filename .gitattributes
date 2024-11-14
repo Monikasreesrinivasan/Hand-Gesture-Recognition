@@ -1,4 +1,10 @@
-*.py linguist-language=Python
+# Specify language for GitHub
 *.md linguist-language=Markdown
-*.js linguist-language=JavaScript
-*.json linguist-language=JSON
+*.py linguist-language=Python
+
+# Automatic line ending conversion
+* text=auto
+
+# Treat binary files as binary
+*.png binary
+*.jpg binary
